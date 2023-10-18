@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+:root {
+  --primary-color: #181b3a;
+  --secondary-color: #4caeffda;
+  --body-bg: rgb(235, 235, 235);
+  --card-01-bg: linear-gradient(#ef621c, #e1424e);
+  --card-02-bg: linear-gradient(#01d293, #56c57a);
+  --card-03-bg: #725cff;
+  --card-04-bg: #2884ff;
+  --heading-color: #fff;
+  --small-text-color: #808191;
+  --recommend-car01-bg: #e1dfa4;
+  --recommend-car02-bg: #e3ecf1;
+  --recommend-car03-bg: #f4e3e5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  font-family: 'Urbanist', sans-serif;
+  background: linear-gradient(135deg, rgb(216, 216, 216), #eed1ffd7);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul{
+  list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+  text-decoration: none;
+  color: unset;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main_layout{
+  margin-left: 270px;
 }
